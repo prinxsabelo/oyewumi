@@ -13,26 +13,12 @@ module.exports = {
     'gatsby-plugin-postcss',
     "gatsby-plugin-react-helmet",
     `gatsby-plugin-sass`,
-    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/assets/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: `gy0lhk2hw5z0`,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.CONTENTFUL_API_KEY,
-      },
-    },
+
+
     {
       resolve: `gatsby-plugin-sharp`,
       options: {

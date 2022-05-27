@@ -19,12 +19,14 @@ import { FiLock } from 'react-icons/fi';
 const MobileFigma = () => {
     return (
         <div className='w-full flex flex-col space-y-4'>
-            <h4 className='text-center tracking-wide font-bold md:mt-0 text-2xl'>
+            <h4 data-sal="fade-in"
+                data-sal-delay="100"
+                data-sal-easing="ease" className='text-center tracking-wide font-bold md:mt-0 text-2xl'>
                 Mobile UI/UX Design
             </h4>
             <div className='w-full md:w-11/12 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 '>
                 <div data-sal="fade-in"
-                    data-sal-delay="100"
+                    data-sal-delay="200"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
                     <div className='card-img-wrapper f1 flex justify-center p-4  space-x-2 rounded-xl '>
@@ -48,7 +50,7 @@ const MobileFigma = () => {
                     </div>
                 </div>
                 <div data-sal="fade-in"
-                    data-sal-delay="200"
+                    data-sal-delay="300"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
                     <div className='card-img-wrapper f1 flex justify-center p-4  space-x-2 rounded-xl '>

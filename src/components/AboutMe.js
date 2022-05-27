@@ -9,16 +9,26 @@ const AboutMe = () => {
                 className='flex flex-col mb-12 sm:mb-24 md:flex-row items-center px-3 md:px-28 md:gap-16'>
 
                 <div className='bg-gray-700 w-full p-2 md:p-6 rounded-3xl'>
-                    <div className='w-full h-80  md:w-80 md:h-80 bg-green-300 rounded-3xl pt-4 '>
+                    <div
+                        data-sal="fade-in"
+                        data-sal-delay="100"
+                        data-sal-easing="ease"
+                        className='w-full h-80  md:w-80 md:h-80 bg-green-300 rounded-3xl pt-4 '>
                         <img src={hero} alt=""
                             className="rounded-3xl object-none object-top bg-green-300 w-full h-full" />
                     </div>
                 </div>
                 <div className='flex flex-col space-y-2'>
-                    <h3 className='text-3xl  mt-4 md:mt-0 '>
+                    <h3 className='text-3xl  mt-4 md:mt-0 '
+                        data-sal="fade-in"
+                        data-sal-delay="200"
+                        data-sal-easing="ease">
                         About Me
                     </h3>
-                    <div className='flex flex-col space-y-2 w-full md:w-11/12 '>
+                    <div className='flex flex-col space-y-2 tracking-wide w-full md:w-11/12 '
+                        data-sal="fade-in"
+                        data-sal-delay="300"
+                        data-sal-easing="ease">
                         <p>
                             Hi there! 👋🏻
                         </p>

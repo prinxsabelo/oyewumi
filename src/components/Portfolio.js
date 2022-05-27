@@ -7,8 +7,11 @@ const Portfolio = () => {
         <>
             <div className='h-12 md:h-16' id='my-portfolio'></div>
 
-            <div className='flex flex-col mb-16 items-center px-3 md:px-28 space-y-8 md:gap-4 w-full'>
-                <h3 className='w-full text-center  text-3xl font-bold'>
+            <div
+                className='flex flex-col mb-16 items-center px-3 md:px-28 space-y-8 md:gap-4 w-full'>
+                <h3 data-sal="slide-in"
+                    data-sal-easing="ease"
+                    className='w-full text-center  text-3xl font-bold'>
                     Visit My Portfolio  <span className='text-brand'>And Give Your Feedback</span>
                 </h3>
 
