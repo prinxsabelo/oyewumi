@@ -20,25 +20,25 @@ export const Companies = () => {
                         data-sal-delay="100"
                         data-sal-easing="ease"
                     >
-                        <img src={rimo} alt="" className="h-20 md:w-40 object-contain" />
+                        <img src={rimo} alt="" className="h-20 w-full md:w-40 object-contain" />
                     </div>
                     <div className='md:px-8'
                         data-sal="fade-in"
                         data-sal-delay="200"
                         data-sal-easing="ease">
-                        <img src={q} alt="" className="h-20 md:w-40 object-contain" />
+                        <img src={q} alt="" className="h-20 w-full md:w-40 object-contain" />
                     </div>
                     <div className='md:px-8'
                         data-sal="fade-in"
                         data-sal-delay="300"
                         data-sal-easing="ease">
-                        <img src={c} alt="" className="h-20 md:w-40 object-contain" />
+                        <img src={c} alt="" className="h-20 w-full md:w-40 object-contain" />
                     </div>
                     <div className='md:px-8'
                         data-sal="fade-in"
                         data-sal-delay="400"
                         data-sal-easing="ease">
-                        <img src={d} alt="" className="h-20 md:w-40 object-contain" />
+                        <img src={d} alt="" className="h-20 w-full md:w-40 object-contain" />
                     </div>
 
                 </div>
