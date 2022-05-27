@@ -282,13 +282,14 @@ body {
 
 .hero {
   display: flex;
-  height: 85vh;
+  height: 80vh;
   align-items: center;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (min-width: 768px) {
   .hero {
     display: flex;
-    height: 80vh;
+    height: 85vh;
     align-items: center;
   }
 }
