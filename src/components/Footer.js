@@ -12,10 +12,12 @@ const Footer = () => {
             </p>
             <div className='flex space-x-4'>
                 <a href="https://www.linkedin.com/in/oyewumi-olukunle-10b07716a"
+                    rel="noreferrer"
                     target="_blank" className=' p-2 rounded-full'>
                     <FaLinkedin className='w-4 h-4' />
                 </a>
                 <a href="https://www.behance.net/olukunleoyewumi"
+                    rel="noreferrer"
                     target="_blank" className=' p-2 rounded-full'>
                     <FaBehance className='w-4 h-4' />
                 </a>

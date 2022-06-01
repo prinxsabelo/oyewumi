@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs';
 import heroIm from '../assets/images/hero-im.png'
+import downloadFile from './OYEWUMI-OLUKUNLE.pdf'
 
 const Hero = () => {
     return (
@@ -14,7 +15,7 @@ const Hero = () => {
                     Hello, I'm <span className='text-brand  uppercase'>Oyewumi</span> <span className=' uppercase'>Olukunle </span>
                 </h1>
                 <div className='flex space-x-4'>
-                    <a href='OYEWUMI-OLUKUNLE.pdf'
+                    <a href={downloadFile}
                         data-sal="fade-in"
                         data-sal-delay="200"
                         data-sal-easing="ease"
@@ -27,12 +28,14 @@ const Hero = () => {
                             <BsDownload />
                         </i>
                     </a>
-                    <button
+                    <a href='https://www.linkedin.com/in/oyewumi-olukunle-10b07716a'
                         data-sal="fade-in"
                         data-sal-delay="300"
                         data-sal-easing="ease"
+                        target="_blank"
+                        rel="noreferrer"
 
-                        className='px-4 btn w-40 py-2 border-2 rounded hover:border-brand'>Hire me</button>
+                        className='px-4 btn w-40 py-2 flex justify-center border-2 rounded hover:border-brand'>Hire me</a>
                 </div>
             </div>
             <div
