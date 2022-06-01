@@ -8,7 +8,7 @@ const Portfolio = () => {
             <div className='h-12 md:h-16' id='my-portfolio'></div>
 
             <div
-                className='flex flex-col mb-16 items-center px-3 md:px-16 space-y-8 md:gap-4 w-full'>
+                className='flex flex-col mb-16 items-center px-3 items-center space-y-8 md:gap-4 w-full'>
                 <h3 data-sal="slide-in"
                     data-sal-easing="ease"
                     className='w-full text-center  text-3xl font-bold'>

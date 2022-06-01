@@ -12,7 +12,7 @@ import { FiLock } from 'react-icons/fi';
 
 const WebFigma = () => {
     return (
-        <div className='w-full flex flex-col space-y-4'>
+        <div className='w-full flex flex-col items-center space-y-4'>
             <h4 data-sal="fade-in"
                 data-sal-delay="100"
                 data-sal-easing="ease"
