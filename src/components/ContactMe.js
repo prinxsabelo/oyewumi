@@ -88,7 +88,7 @@ const ContactMe = () => {
 
                         <button type="submit" className="bg-brand inline-flex items-center 
                         font-medium focus:outline-none cursor-pointer transition
-                        flex items-center p-4 rounded-xl hover:bg-green-600 ">
+                        flex items-center p-4 rounded hover:bg-green-600 ">
                             <span className="text-xl font-medium">Send Message</span>
 
                         </button>

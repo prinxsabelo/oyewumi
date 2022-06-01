@@ -21,7 +21,7 @@ const Portfolio = () => {
                 <a data-sal="fade-in"
                     data-sal-delay="100"
                     data-sal-easing="ease"
-                    href="/" className='bg-btn btn px-4 py-2 rounded-xl hover:bg-brand '>Connect with me</a>
+                    href="/" className='bg-btn btn px-4 py-2 rounded hover:bg-brand '>Connect with me</a>
             </div>
         </>
 
