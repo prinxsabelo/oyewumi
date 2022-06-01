@@ -9,7 +9,7 @@ const Hero = () => {
                 <h1 data-sal="fade-in"
                     data-sal-delay="100"
                     data-sal-easing="ease"
-                    className='text-4xl tracking-wider md:text-6xl w-full md:w-10/12 leading-tight font-bold uppercase' >
+                    className='text-4xl tracking-wider md:text-6xl w-full md:w-10/12 leading-loose font-bold uppercase' >
                     Hello, I'm <span className='text-brand'>Oyewumi</span> <span className=''>Olukunle </span>
                 </h1>
                 <div className='flex space-x-4'>
