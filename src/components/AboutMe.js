@@ -13,7 +13,7 @@ const AboutMe = () => {
                         data-sal="fade-in"
                         data-sal-delay="100"
                         data-sal-easing="ease"
-                        className='w-full h-80  md:w-80 md:h-80 bg-green-300 rounded-3xl pt-4 '>
+                        className='w-full h-80   bg-green-300 rounded-3xl pt-4 '>
                         <img src={hero} alt=""
                             className="rounded-3xl object-none object-top bg-green-300 w-full h-full" />
                     </div>
