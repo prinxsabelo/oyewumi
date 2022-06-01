@@ -37,7 +37,7 @@ const LayOut = () => {
                     <Navbar toggleSidebar={toggleSidebar} isOpen={isOPen} />
                     <Sidebar toggleSidebar={toggleSidebar} isOpen={isOPen} />
                 </header>
-                <main className='flex flex-col space-y-10'>
+                <main className='flex flex-col space-y-5'>
                     <Hero />
                     {/* <Companies /> */}
                     <AboutMe />

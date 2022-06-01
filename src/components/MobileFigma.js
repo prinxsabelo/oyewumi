@@ -59,8 +59,8 @@ const MobileFigma = () => {
                         </span>
                     </div>
                     <div className='text-sm flex justify-between tracking-wider items-center'>
-                        <p className='w-9/12'> Mobile chatting app for
-                            scheduling message.</p>
+                        <p className='w-9/12'> Mobile fintech app for
+                            exchanging currency.</p>
                         <FiLock className='w-6 h-6' />
                     </div>
                 </div>
@@ -82,8 +82,8 @@ const MobileFigma = () => {
                         </span>
                     </div>
                     <div className='text-sm flex justify-between tracking-wider items-center'>
-                        <p className='w-9/12'> Mobile chatting app for
-                            scheduling message.</p>
+                        <p className='w-9/12'> Mobile dating app where you
+                            meet your love ones.</p>
                         <FiLock className='w-6 h-6' />
                     </div>
                 </div>
