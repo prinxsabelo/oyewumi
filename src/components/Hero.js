@@ -9,15 +9,15 @@ const Hero = () => {
                 <h1 data-sal="fade-in"
                     data-sal-delay="100"
                     data-sal-easing="ease"
-                    className='text-4xl tracking-wider md:text-6xl w-full md:w-10/12 leading-tight font-bold' >
-                    Hello, I'm <span className='text-brand'>Oyewumi</span> <span className='uppercase'>Olukunle </span>
+                    className='text-4xl tracking-wider md:text-6xl w-full md:w-10/12 leading-tight font-bold uppercase' >
+                    Hello, I'm <span className='text-brand'>Oyewumi</span> <span className=''>Olukunle </span>
                 </h1>
                 <div className='flex space-x-4'>
                     <button
                         data-sal="fade-in"
                         data-sal-delay="200"
                         data-sal-easing="ease"
-                        className='bg-btn btn w-40 py-2 rounded-xl hover:bg-brand flex
+                        className='bg-btn btn w-40 py-2 rounded hover:bg-brand flex
                         space-x-1 items-center justify-center'>
                         <span> Download CV</span>
                         <i>
@@ -29,7 +29,7 @@ const Hero = () => {
                         data-sal-delay="300"
                         data-sal-easing="ease"
 
-                        className='px-4 btn w-40 py-2 border-2 rounded-xl hover:border-brand'>Hire me</button>
+                        className='px-4 btn w-40 py-2 border-2 rounded hover:border-brand'>Hire me</button>
                 </div>
             </div>
             <div
