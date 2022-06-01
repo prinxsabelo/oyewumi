@@ -9,8 +9,8 @@ const Hero = () => {
                 <h1 data-sal="fade-in"
                     data-sal-delay="100"
                     data-sal-easing="ease"
-                    className='text-4xl tracking-wider md:text-6xl w-full md:w-10/12 leading-10 font-bold uppercase' >
-                    Hello, I'm <span className='text-brand'>Oyewumi</span> <span className=''>Olukunle </span>
+                    className='text-4xl hero-text tracking-wider md:text-6xl w-full md:w-10/12  font-bold' >
+                    Hello, I'm <span className='text-brand  uppercase'>Oyewumi</span> <span className=' uppercase'>Olukunle </span>
                 </h1>
                 <div className='flex space-x-4'>
                     <button
