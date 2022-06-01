@@ -62,7 +62,7 @@ const WebFigma = () => {
                     <div className='text-sm flex justify-between tracking-wider items-center'>
                         <p className='w-9/12'> Web chatting app for
                             scheduling message.</p>
-                        <FiLock className='w-6 h-6' />
+                        {/* <FiLock className='w-6 h-6' /> */}
                     </div>
                 </div>
                 <div data-sal="fade-in"
@@ -84,7 +84,7 @@ const WebFigma = () => {
                     <div className='text-sm flex justify-between tracking-wider items-center'>
                         <p className='w-9/12'> Web chatting app for
                             scheduling message.</p>
-                        <FiLock className='w-6 h-6' />
+                        {/* <FiLock className='w-6 h-6' /> */}
                     </div>
                 </div>
             </div>
