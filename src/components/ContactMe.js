@@ -7,7 +7,7 @@ const ContactMe = () => {
 
             <div data-sal="fade-in"
                 data-sal-easing="ease"
-                className='flex flex-col mb-6  px-3 md:px-16 w-full'>
+                className='flex flex-col mb-16  px-3 md:px-16 w-full'>
                 <form className='w-full bg-contact rounded py-2 md:p-4 flex flex-wrap justify-between md:px-4 md:py-8'>
                     <div className="w-full md:w-1/2 px-3 mb-4 ">
                         <label className="block  tracking-widest text-gray-100 text-sm font-bold mb-2"
@@ -88,12 +88,15 @@ const ContactMe = () => {
 
                         <button type="submit" className="bg-brand inline-flex items-center 
                         font-medium focus:outline-none cursor-pointer transition
-                        flex items-center p-4 rounded-xl hover:bg-green-600 ">
+                        flex items-center p-4 rounded hover:bg-green-600 ">
                             <span className="text-xl font-medium">Send Message</span>
 
                         </button>
                     </div>
                 </form>
+            </div>
+            <div className='md:h-12'>
+
             </div>
         </>
 
