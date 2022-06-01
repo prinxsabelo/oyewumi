@@ -6,7 +6,7 @@ const AboutMe = () => {
             <div className='h-12 md:h-16' id='about-me'></div>
             <div data-sal="fade-in"
                 data-sal-easing="ease"
-                className='flex flex-col mb-12 sm:mb-24 md:flex-row items-center px-3 md:px-28 md:gap-16'>
+                className='flex flex-col mb-12 sm:mb-24 md:flex-row items-center px-3 md:px-16 md:gap-16'>
 
                 <div className='bg-gray-700 w-full p-2 md:p-6 rounded-3xl'>
                     <div

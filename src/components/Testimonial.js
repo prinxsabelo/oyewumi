@@ -8,7 +8,7 @@ const Testimonial = () => {
     return (
         <div
 
-            className='sm:pt-8 mb-16 w-full md:w-11/12  flex flex-col  px-4 md:px-28 justify-center space-y-4 md:space-y-4'>
+            className='sm:pt-8 mb-16 w-full md:w-11/12  flex flex-col  px-4 md:px-16 justify-center space-y-4 md:space-y-4'>
             <h4 className='text-3xl md:text-4xl text-center'
                 data-sal="fade-in"
                 data-sal-easing="ease">

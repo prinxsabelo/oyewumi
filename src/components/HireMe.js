@@ -5,7 +5,7 @@ const HireMe = () => {
         <div data-sal="fade-in"
             data-sal-delay="100"
             data-sal-easing="ease" className='flex flex-col space-y-4'>
-            <div className='flex flex-col mb-2 items-center px-3 md:px-28 space-y-8 md:gap-4 w-full'>
+            <div className='flex flex-col mb-2 items-center px-3 md:px-16 space-y-8 md:gap-4 w-full'>
                 <div className='flex flex-col space-y-2'>
                     <h3 className='w-full flex justify-center text-3xl'>Hire Me</h3>
                     <p className='tracking-widder'>I am available for</p>
