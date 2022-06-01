@@ -24,7 +24,7 @@ const WebFigma = () => {
                     data-sal-delay="200"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center p-4  space-x-2 rounded-xl '>
+                    <div className='card-img-wrapper f1 flex justify-center   space-x-2 rounded-xl '>
                         <img src={w1} alt="" className="w-full object-contain" />
                     </div>
                     <div className='flex justify-between items-center'>
@@ -46,7 +46,7 @@ const WebFigma = () => {
                     data-sal-delay="300"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center p-4  space-x-2 rounded-xl '>
+                    <div className='card-img-wrapper f1 flex justify-center   space-x-2 rounded-xl '>
                         <img src={w2} alt="" className="w-full object-contain" />
 
                     </div>
@@ -69,7 +69,7 @@ const WebFigma = () => {
                     data-sal-delay="400"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center p-4 space-x-2 rounded-xl '>
+                    <div className='card-img-wrapper f1 flex justify-center space-x-2 rounded-xl '>
                         <img src={w3} alt="" className="w-full  object-contain" />
                     </div>
                     <div className='flex justify-between'>

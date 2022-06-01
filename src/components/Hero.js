@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs';
-import heroImg from '../assets/images/hero.png'
+import heroIm from '../assets/images/hero-im.png'
 const Hero = () => {
     return (
         <div className='bg-bg hero relative pt-2 top-8 md:top-16  md:pt-4 flex flex-col
@@ -9,7 +9,7 @@ const Hero = () => {
                 <h1 data-sal="fade-in"
                     data-sal-delay="100"
                     data-sal-easing="ease"
-                    className='text-4xl md:text-6xl w-full md:w-10/12 leading-tight font-bold' >
+                    className='text-4xl tracking-wider md:text-6xl w-full md:w-10/12 leading-tight font-bold' >
                     Hello, I'm <span className='text-brand'>Oyewumi</span> <span className='uppercase'>Olukunle </span>
                 </h1>
                 <div className='flex space-x-4'>
@@ -36,11 +36,11 @@ const Hero = () => {
                 data-sal="fade-in"
                 data-sal-delay="400"
                 data-sal-easing="ease"
-                className='w-10/12 md:w-3/5 flex justify-center pb-5'>
+                className='w-10/12 md:w-3/5 flex justify-center pb-5  hero-bg'>
                 <div className='w-full md:w-1/2'>
-                    <div className='hero-wrapper w-full border-2 p-4 rounded-full'>
-                        <img src={heroImg} alt="" className="w-full" />
-                    </div>
+                    {/* <div className='hero-wrapper w-full border-2 p-4 rounded-full'> */}
+                    <img src={heroIm} alt="" className="w-full" />
+                    {/* </div> */}
 
                 </div>
 

@@ -1,15 +1,8 @@
 import React from 'react'
-import f1a from '../assets/images/f1a.png'
-import f1b from '../assets/images/f1b.png'
-import f1c from '../assets/images/f1c.png'
+import m1 from '../assets/images/m1.svg'
+import m2 from '../assets/images/m2.svg'
+import m3 from '../assets/images/m3.svg'
 
-import f2a from '../assets/images/f2a.png'
-import f2b from '../assets/images/f2b.png'
-import f2c from '../assets/images/f2c.png'
-
-import f3a from '../assets/images/f3a.png'
-import f3b from '../assets/images/f3b.png'
-import f3c from '../assets/images/f3c.png'
 
 import { FcLike } from 'react-icons/fc';
 
@@ -29,10 +22,9 @@ const MobileFigma = () => {
                     data-sal-delay="200"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center p-4  space-x-2 rounded-xl '>
-                        <img src={f1a} alt="" className="w-16  h-36 object-contain" />
-                        <img src={f1b} alt="" className="w-16  h-36 object-contain" />
-                        <img src={f1c} alt="" className="w-16  h-36 object-contain" />
+                    <div className='card-img-wrapper f1 flex justify-center   space-x-2 rounded-xl '>
+                        <img src={m1} alt="" className="w-full rounded-xl object-contain" />
+
                     </div>
                     <div className='flex justify-between items-center'>
                         <p className='font-semibold'>
@@ -53,10 +45,9 @@ const MobileFigma = () => {
                     data-sal-delay="300"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center p-4  space-x-2 rounded-xl '>
-                        <img src={f2a} alt="" className="w-16  h-36 object-contain" />
-                        <img src={f2b} alt="" className="w-16  h-36 object-contain" />
-                        <img src={f2c} alt="" className="w-16  h-36 object-contain" />
+                    <div className='card-img-wrapper f1 flex justify-center  space-x-2 rounded-xl '>
+                        <img src={m2} alt="" className="w-full rounded-xl object-contain" />
+
                     </div>
                     <div className='flex justify-between'>
                         <p className='font-semibold'>
@@ -77,10 +68,9 @@ const MobileFigma = () => {
                     data-sal-delay="300"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center p-4 space-x-2 rounded-xl '>
-                        <img src={f3a} alt="" className="w-16 h-36  object-contain" />
-                        <img src={f3b} alt="" className="w-16  h-36 object-contain" />
-                        <img src={f3c} alt="" className="w-16  h-36 object-contain" />
+                    <div className='card-img-wrapper f1 flex justify-center space-x-2 rounded-xl '>
+                        <img src={m3} alt="" className="w-full rounded-xl object-contain" />
+
                     </div>
                     <div className='flex justify-between'>
                         <p className='font-semibold'>

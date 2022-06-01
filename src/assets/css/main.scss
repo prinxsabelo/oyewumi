@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #1f1600;
+  background-color: #000000;
   font-family: "Matter";
 }
 .layout {
@@ -266,6 +266,13 @@ body {
   padding: 0.15rem 1rem;
 }
 
+.hero-bg {
+  background-image: url("../images/hero-bg.jpeg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hero-wrapper {
   position: relative;
   animation: pulse 5s infinite;
@@ -284,10 +291,13 @@ body {
   display: flex;
   height: 80vh;
   align-items: center;
+  margin-top: 9em;
 }
 
 @media only screen and (min-width: 768px) {
   .hero {
+    margin-top: 0rem;
+
     display: flex;
     height: 85vh;
     align-items: center;
@@ -350,4 +360,21 @@ footer {
   60% {
     border-color: #f35386;
   }
+}
+
+.particles {
+  position: absolute;
+  height: 500px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 3%,
+    rgba(42, 139, 6, 1) 100%,
+    rgba(61, 7, 196, 1) 100%
+  );
 }
