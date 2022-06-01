@@ -4,7 +4,7 @@ import heroIm from '../assets/images/hero-im.png'
 const Hero = () => {
     return (
         <div className='bg-bg hero relative pt-2 top-8 md:top-16  md:pt-4 flex flex-col
-                flex-col-reverse  md:flex-row px-4 md:px-16 space-x-24' >
+                flex-col-reverse  md:flex-row px-4 md:px-16 md:space-x-24' >
             <div className='w-full md:w-2/5 flex flex-col space-y-4 md:space-y-8'>
                 <h1 data-sal="fade-in"
                     data-sal-delay="100"
