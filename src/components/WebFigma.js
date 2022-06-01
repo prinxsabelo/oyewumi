@@ -37,8 +37,7 @@ const WebFigma = () => {
                         </span>
                     </div>
                     <div className='text-sm flex justify-between tracking-wider items-center'>
-                        <p className='w-9/12'> Web chatting app for
-                            scheduling message.</p>
+                        <p className='w-9/12'> Picca is a platform where you  create & download an event.</p>
                         <FiLock className='w-6 h-6' />
                     </div>
                 </div>
@@ -60,8 +59,7 @@ const WebFigma = () => {
                         </span>
                     </div>
                     <div className='text-sm flex justify-between tracking-wider items-center'>
-                        <p className='w-9/12'> Web chatting app for
-                            scheduling message.</p>
+                        <p className='w-9/12'> WritersGig is a unique marketplace for freelance writers. www.writersgig.com  </p>
                         {/* <FiLock className='w-6 h-6' /> */}
                     </div>
                 </div>
@@ -82,8 +80,8 @@ const WebFigma = () => {
                         </span>
                     </div>
                     <div className='text-sm flex justify-between tracking-wider items-center'>
-                        <p className='w-9/12'> Web chatting app for
-                            scheduling message.</p>
+                        <p className='w-9/12'> Mobile dating app where you
+                            meet your love ones</p>
                         {/* <FiLock className='w-6 h-6' /> */}
                     </div>
                 </div>
