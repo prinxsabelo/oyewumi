@@ -18,7 +18,7 @@ const Testimonial = () => {
                 data-sal-delay="100"
                 data-sal-easing="ease" className='text-xl font-bold text-center tracking-wide'>Testimonial</p>
             <div className='flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-12 pt-8'>
-                <div className='t-card bg-gray-500 w-full md:w-1/3 space-y-2  p-6'
+                <div className='t-card bg-gray-900 w-full md:w-1/3 space-y-2  p-6'
                     data-sal="fade-in"
                     data-sal-delay="200"
                     data-sal-easing="ease">
@@ -40,7 +40,7 @@ const Testimonial = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mi nulla
                     </p>
                 </div>
-                <div className='t-card bg-gray-500 w-full md:w-1/3 space-y-2  p-6'
+                <div className='t-card bg-gray-900 w-full md:w-1/3 space-y-2  p-6'
                     data-sal="fade-in"
                     data-sal-delay="200"
                     data-sal-easing="ease">
@@ -63,7 +63,7 @@ const Testimonial = () => {
                     </p>
                 </div>
 
-                <div className='t-card bg-gray-500 w-full md:w-1/3 space-y-2  p-6'
+                <div className='t-card bg-gray-900 w-full md:w-1/3 space-y-2  p-6'
                     data-sal="fade-in"
                     data-sal-delay="300"
                     data-sal-easing="ease">
