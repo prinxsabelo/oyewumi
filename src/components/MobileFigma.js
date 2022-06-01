@@ -22,8 +22,8 @@ const MobileFigma = () => {
                     data-sal-delay="200"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center   space-x-2 rounded-xl '>
-                        <img src={m1} alt="" className="w-full rounded-xl object-contain" />
+                    <div className='card-img-wrapper f1 flex  h-52 justify-center   space-x-2 rounded-xl '>
+                        <img src={m1} alt="" className="w-full rounded-xl object-cover" />
 
                     </div>
                     <div className='flex justify-between items-center'>
@@ -45,8 +45,8 @@ const MobileFigma = () => {
                     data-sal-delay="300"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center  space-x-2 rounded-xl '>
-                        <img src={m2} alt="" className="w-full rounded-xl object-contain" />
+                    <div className='card-img-wrapper f1   h-52 flex justify-center  space-x-2 rounded-xl '>
+                        <img src={m2} alt="" className="w-full rounded-xl object-cover" />
 
                     </div>
                     <div className='flex justify-between'>
@@ -68,8 +68,8 @@ const MobileFigma = () => {
                     data-sal-delay="300"
                     data-sal-easing="ease"
                     className='w-full md:w-1/3 figma-card  p-4 flex flex-col space-y-2 '>
-                    <div className='card-img-wrapper f1 flex justify-center space-x-2 rounded-xl '>
-                        <img src={m3} alt="" className="w-full rounded-xl object-contain" />
+                    <div className='card-img-wrapper h-52 f1 flex justify-center space-x-2 rounded-xl '>
+                        <img src={m3} alt="" className="w-full  rounded-xl object-cover" />
 
                     </div>
                     <div className='flex justify-between'>
