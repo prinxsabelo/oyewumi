@@ -8,9 +8,9 @@ const Navbar = ({ toggleSidebar, isOpen }) => {
             <div className="nav-center py-1 pb-3 flex items-center" >
                 <div className="nav-header flex items-center py-4  px-4 md:px-16">
 
-                    <span className=' tracking-widest flex items-center 
-                            text-xl space-x-2 font-semibold '>
-                        <img src={logo}  alt="" className="w-10 h-10" />
+                    <span className='-ml-3 tracking-widest flex items-center 
+                            text-xl  font-semibold '>
+                        <img src={logo} alt="" className="w-10 h-10" />
 
                     </span>
 
@@ -24,7 +24,7 @@ const Navbar = ({ toggleSidebar, isOpen }) => {
 
                     </button>
                 </div>
-                <PageLinks styleClass="nav-links text-xl" />
+                <PageLinks styleClass="nav-links text-xl mr-4" />
             </div>
         </nav>
     )
