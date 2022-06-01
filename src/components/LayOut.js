@@ -39,7 +39,7 @@ const LayOut = () => {
                 </header>
                 <main className='flex flex-col space-y-10'>
                     <Hero />
-                    <Companies />
+                    {/* <Companies /> */}
                     <AboutMe />
                     <Testimonial />
                     <Portfolio />
