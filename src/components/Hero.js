@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs';
 import heroIm from '../assets/images/hero-im.png'
+
 const Hero = () => {
     return (
         <div className='bg-bg hero relative pt-2 top-8 md:top-16  md:pt-4 flex flex-col
@@ -13,17 +14,19 @@ const Hero = () => {
                     Hello, I'm <span className='text-brand  uppercase'>Oyewumi</span> <span className=' uppercase'>Olukunle </span>
                 </h1>
                 <div className='flex space-x-4'>
-                    <button
+                    <a href='OYEWUMI-OLUKUNLE.pdf'
                         data-sal="fade-in"
                         data-sal-delay="200"
                         data-sal-easing="ease"
+                        download
                         className='bg-btn btn w-40 py-2 rounded hover:bg-brand flex
-                        space-x-1 items-center justify-center'>
+                        space-x-1 items-center justify-center'
+                    >
                         <span> Download CV</span>
                         <i>
                             <BsDownload />
                         </i>
-                    </button>
+                    </a>
                     <button
                         data-sal="fade-in"
                         data-sal-delay="300"
