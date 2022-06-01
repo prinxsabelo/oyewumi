@@ -8,7 +8,7 @@ const Navbar = ({ toggleSidebar, isOpen }) => {
             <div className="nav-center py-1 pb-3 flex items-center" >
                 <div className="nav-header flex items-center py-4  px-4 md:px-16">
 
-                    <span className='-ml-3 tracking-widest flex items-center 
+                    <span className='md:-ml-3 tracking-widest flex items-center 
                             text-xl  font-semibold '>
                         <img src={logo} alt="" className="w-10 h-10" />
 
